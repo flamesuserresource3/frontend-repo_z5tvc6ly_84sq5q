@@ -9,8 +9,9 @@ export default function Navbar() {
           Portfolio
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-white/80">
-          <a href="#home" className="hover:text-white transition">Beranda</a>
+          <a href="#about" className="hover:text-white transition">Tentang Saya</a>
           <a href="#projects" className="hover:text-white transition">Proyek</a>
+          <a href="#skills" className="hover:text-white transition">Keahlian</a>
           <a href="#contact" className="hover:text-white transition">Kontak</a>
         </nav>
         <div className="flex items-center gap-3">
